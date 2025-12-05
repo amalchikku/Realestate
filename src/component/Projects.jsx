@@ -21,7 +21,7 @@ const Projects = () => {
       </p>
 
       {/* Slider buttons */}
-      <div className="flex justify-end items-center mb-8">
+      {/* <div className="flex justify-end items-center mb-8">
         <button
           className="p-3 w-10 bg-gray-200 rounded mr-2"
           aria-label="Previous Project"
@@ -35,7 +35,7 @@ const Projects = () => {
         >
           <img src={RightIcon} alt="Next" />
         </button>
-      </div>
+      </div> */}
 
       {/* Project slider */}
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderImg from "../assets/header_img.jpg";
+import HeaderImg from "../assets/brand_img.png";
 
 const About = () => {
   return (

@@ -10,7 +10,7 @@ const Footer = () => {
       >
         <div className="container nx-auto flex flex-col md:flex-row justify-between items-start">
           <div className="w-full md:w-1/3 mb-8 md:mb-0">
-            <img src={logo} alt="" />
+            <img className="w-70" src={logo} alt="" />
             <p className=" text-gray-400 mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
               labore excepturi quis eaque! Voluptatibus, sit, harum minus
@@ -33,18 +33,30 @@ const Footer = () => {
             </ul>
           </div>
           <div className="w-full md:w-1/3">
-          <h3 className="text-white text-lg font-bold mb-4">Subscribe to our newsletter</h3>
-          <p className="text-gray-400 mb-4 max-w-80">The Latest news , article , and resources , send to your inbox weekly</p></div>
+            <h3 className="text-white text-lg font-bold mb-4">
+              Subscribe to our newsletter
+            </h3>
+            <p className="text-gray-400 mb-4 max-w-80">
+              The Latest news , article , and resources , send to your inbox
+              weekly
+            </p>
+          </div>
           <div className="flex gap-2">
-            <input type="email"  placeholder="Enter your email" className="p-2 rounded bg-gray-800 text-gray-400 border border-gray-700 focus:out;ine-none w-full md:w-auto"/>
-            <button className="py-2 px-4 rounded bg-blue-400 text-white">Subscribe</button>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              className="p-2 rounded bg-gray-800 text-gray-400 border border-gray-700 focus:out;ine-none w-full md:w-auto"
+            />
+            <button className="py-2 px-4 rounded bg-blue-400 text-white">
+              Subscribe
+            </button>
           </div>
         </div>
-     
-      <div className="border-t border-gray-700 py-4 mt-10 text-center text-gray-500">
-        copy right 2025 @ Amal R Suresh . All Right Reserverd
+
+        <div className="border-t border-gray-700 py-4 mt-10 text-center text-gray-500">
+          copy right 2025 @ Amal R Suresh . All Right Reserverd
+        </div>
       </div>
-       </div>
     </div>
   );
 };
