@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MenuIcon from "../assets/menu.png";
 import CloseIcon from "../assets/close.png";
+import logo from "../assets/logo.png";
 
 const NavBar = () => {
   const [showMobileMenu, setshowMobileMenu] = useState(false);
@@ -19,7 +20,7 @@ const NavBar = () => {
   return (
     <div className="absolute top-0 left-0 w-full z-10">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
-        <img src="{assets}" alt="" />
+        <img className="w-29" src={logo} alt="" />
         <ul className="hidden md:flex gap-7 text-white font-light ">
           <a href="#Header" className="cursor-pointer hover:text-grey-400">
             Home
