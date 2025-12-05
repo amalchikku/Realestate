@@ -22,16 +22,16 @@ const NavBar = () => {
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
         <img className="w-29" src={logo} alt="" />
         <ul className="hidden md:flex gap-7 text-white font-light ">
-          <a href="#Header" className="cursor-pointer hover:text-grey-400">
+          <a href="#Header" className="cursor-pointer hover:text-black">
             Home
           </a>
-          <a href="#About" className="cursor-pointer hover:text-grey-400">
+          <a href="#About" className="cursor-pointer hover:text-black">
             About
           </a>
-          <a href="#Projects" className="cursor-pointer hover:text-grey-400">
+          <a href="#Projects" className="cursor-pointer hover:text-black">
             Projects
           </a>
-          <a href="#Testimoniails" className="cursor-pointer hover:text-grey-400">
+          <a href="#Testimoniails" className="cursor-pointer hover:text-black">
             Testimonials
           </a>
         </ul>
@@ -60,16 +60,16 @@ const NavBar = () => {
           />
         </div>
         <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
-          <a onClick={() => setshowMobileMenu(false)} href="" className="px-4 py-2 rounded-full inline-block">
+          <a onClick={() => setshowMobileMenu(false)} href="#" className="px-4 py-2 rounded-full inline-block">
             Home
           </a>
-          <a onClick={() => setshowMobileMenu(false)} href="" className="px-4 py-2 rounded-full inline-block">
+          <a onClick={() => setshowMobileMenu(false)} href="#About" className="px-4 py-2 rounded-full inline-block">
             About
           </a>
-          <a onClick={() => setshowMobileMenu(false)} href="" className="px-4 py-2 rounded-full inline-block">
+          <a onClick={() => setshowMobileMenu(false)} href="#Projects" className="px-4 py-2 rounded-full inline-block">
             Project
           </a>
-          <a onClick={() => setshowMobileMenu(false)} href="" className="px-4 py-2 rounded-full inline-block">
+          <a onClick={() => setshowMobileMenu(false)} href="#Testimoniails" className="px-4 py-2 rounded-full inline-block">
             Testimonails
           </a>
         </ul>
